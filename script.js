@@ -2,7 +2,6 @@ const search = document.getElementById('search');
 const submit = document.getElementById('submit');
 const dispmeals = document.getElementById('meals');
 const resultheading = document.getElementById('result-heading');
-const singlemeal = document.getElementById('single-meal');
 
 function searchMeal(e)
 {
@@ -36,8 +35,4 @@ function searchMeal(e)
 
     }
 }
-
-
-
-  
 submit.addEventListener('submit', searchMeal);
